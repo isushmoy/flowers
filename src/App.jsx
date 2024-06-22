@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import './App.css'
 
 function App() {
-  const numPoints = 4;
+  const numPoints = 10;
 
   function createPoint(container) {
     const point = document.createElement("div");
